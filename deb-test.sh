@@ -38,4 +38,16 @@ else
     echo "Invalid input. Skipping Docker installation."
 fi
 
+# Prompt user for Nala installation
+read -p "Would you like to install Nala? (yes/no): " nala_choice
+
+if [[ $nala_choice == "yes" ]]; then
+    sudo apt-get install -y nala
+    echo "Nala installation completed."
+elif [[ $nala_choice == "no" ]]; then
+    echo "Skipping Nala installation."
+else
+    echo "Invalid input. Skipping Nala installation."
+fi
+
 echo "Complete!"
