@@ -21,3 +21,11 @@ General sys admin automation & managment.
 
 <ins>**Notes:**<ins>
 - Replace "your_image.png" with the actual path to your PNG image.
+
+# Add-User
+
+<ins>**Info:**<ins>
+- **THIS HAS NOT BEEN TESTED** These are drafted scripts to add users to a windows domain.
+
+<ins>**Notes:**<ins>
+- Replace "PASSWORD" with the desired password and adjust the paths ("\\fileserver\users\", "\\server\scripts\") as necessary for your environment. Additionally, for setting the first-time sign-in script, you may need to manually run a PowerShell or VBScript command to set the script path (Set-ADUser in PowerShell or objUser.Put in VBScript) as this functionality is not directly available in Python.
