@@ -1,5 +1,5 @@
 # SYSadmin
-General sys admin automation
+General sys admin automation & managment.
 
 # Sign-in-script
 
