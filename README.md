@@ -29,3 +29,11 @@ General sys admin automation & managment.
 
 <ins>**Notes:**<ins>
 - Replace "PASSWORD" with the desired password and adjust the paths ("\\fileserver\users\", "\\server\scripts\") as necessary for your environment. Additionally, for setting the first-time sign-in script, you may need to manually run a PowerShell or VBScript command to set the script path (Set-ADUser in PowerShell or objUser.Put in VBScript) as this functionality is not directly available in Python.
+
+# deb-test
+
+<ins>**Info:**<ins>
+- This is a draft to automate the installation of various repos and packages within a debian linux enviorment.
+
+<ins>**Notes:**<ins>
+- This script is very limited at the moment, its currently only used for updating the system and adding the Docker repo and packages to the OS.
