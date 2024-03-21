@@ -13,3 +13,11 @@ General sys admin automation
 
 <ins>**Notes:**<ins>
 - Make sure to replace "\\server\share" with the actual path of your network drive that you want to map. Additionally, replace "HKCU:\Software\MyCompany" with a suitable path for your organization. These scripts also use registry keys to determine whether it's the user's first login.
+
+# Go-Phish
+
+<ins>**Info:**<ins>
+- draft HTML page used for internal phishing for employee education purposes. This form includes fields for name, number, and email, along with a submit button. The image is displayed at the top of the form within the designated image container.
+
+<ins>**Notes:**<ins>
+- Replace "your_image.png" with the actual path to your PNG image.
