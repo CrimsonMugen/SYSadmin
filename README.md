@@ -17,7 +17,7 @@ General sys admin automation & managment.
 # Go-Phish
 
 <ins>**Info:**<ins>
-- draft HTML page used for internal phishing for employee education purposes. This form includes fields for name, number, and email, along with a submit button. The image is displayed at the top of the form within the designated image container.
+- Draft HTML page used for internal phishing for employee education purposes. This form includes fields for name, number, and email, along with a submit button. The image is displayed at the top of the form within the designated image container.
 
 <ins>**Notes:**<ins>
 - Replace "your_image.png" with the actual path to your PNG image.
