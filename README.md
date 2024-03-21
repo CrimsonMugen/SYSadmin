@@ -1,2 +1,15 @@
 # SYSadmin
 General sys admin automation
+
+# Sign-in-script
+
+<ins>**Info:**<ins>
+- Please be aware these are just drafts and not intended to be used with out modifications to ensure security complience and general needs. The Sign-In-Script's are designed to be run the first time a windows user signs into their account while connected to a domain. There are three scripts writtin in VBS, Python and PS1.
+
+<ins>**Features:**<ins>
+- automatically maps network drive
+- requires first time sign in password change
+- sets password requirments ( 14 char min, special character, number )
+
+<ins>**Notes:**<ins>
+- Make sure to replace "\\server\share" with the actual path of your network drive that you want to map. Additionally, replace "HKCU:\Software\MyCompany" with a suitable path for your organization. These scripts also use registry keys to determine whether it's the user's first login.
